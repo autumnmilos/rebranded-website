@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { sliderItems } from '../data';
 
 const Container = styled.div`
-width: 100%;
+width: 100vw;
 height: 100vh;
 display:flex;
 background-color: white ;
@@ -58,18 +58,17 @@ const Arrow = styled.div`
 
  const InfoContainer = styled.div`
  flex: 1;
- margin: 10px 0px;
- padding:50px;
+ padding:5vw;
  `;
 
 const Title = styled.h1`
-font side: 70px;
+font side: 7vw;
 `;
 const Desc = styled.p`
-    margin: 25px 0px;
-    font size: 20px;
+    margin: 2vw 0vh;
+    font size: 2vw;
     font-weight: 500;
-    letter spacing: 3px;
+    letter spacing: .3vw;
 `;
 const Button = styled.button`
 padding: 10px;

@@ -5,12 +5,12 @@ import { Badge } from "@material-ui/core"
 
 
 const Container = styled.div`
-height: 60px;
+height: 4vw;
 `
 
 
 const Wrapper = styled.div`
-padding: 10px 20px;
+padding: 1vh 2vw;
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -22,15 +22,18 @@ const Left = styled.div`
 `;
 
 const Language = styled.span`
-    font-size: 14px;
+    font-size: 1.4vw;
     cursor: pointer;
 `
 const SearchContainer = styled.div`
-  border: 0.5px solid lightgrey;
+  border: 0.05vw solid lightgrey;
+  flex:.5;
   display: flex;
   align-items: center;
-  margin-left: 25px;
-  padding: 5px;
+  margin-left: 2.5vw;
+  margin-bottom: .5vw;
+
+  padding: .5vh;
 `
 const Input = styled.input`
   border: none;
@@ -42,6 +45,7 @@ flex: 1;
 text-align: center;
 `;
 const Logo = styled.h1`
+  font-size: 2.3vw;
   font-weight: bold;
 `;
 const Right = styled.div`
@@ -51,9 +55,9 @@ align-items: center;
 justify-content: flex-end;
 `;
 const MenuItem = styled.div`
-font-size: 14px;
+font-size: 1.2vw;
 cursor: pointer;
-margin-left: 25px;
+margin-left: 2.5vw;
 `
 
 
@@ -66,7 +70,7 @@ const Navbar = () => {
             <Language>EN</Language>
             <SearchContainer>
                 <Input/>
-                <Search style= {{color:"gray, fontSize:16"}}/>
+                <Search style= {{color:"gray, fontSize:1.6"}}/>
             </SearchContainer>
         </Left>
         <Center><Logo>Rebranded.</Logo></Center>
